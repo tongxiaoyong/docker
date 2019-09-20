@@ -12,5 +12,10 @@ pipeline {
         sh 'npm install'
       }
     }
+    stage('install') {
+      steps {
+        echo 'very OK'
+      }
+    }
   }
 }
