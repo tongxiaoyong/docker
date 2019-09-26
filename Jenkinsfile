@@ -18,5 +18,10 @@ pipeline {
         echo 'very OK'
       }
     }
+    stage('') {
+      steps {
+        dir(path: '/var/')
+      }
+    }
   }
 }
