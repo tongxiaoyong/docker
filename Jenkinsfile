@@ -14,6 +14,7 @@ pipeline {
     }
     stage('install') {
       steps {
+        sh 'node -v'
         echo 'very OK'
       }
     }
